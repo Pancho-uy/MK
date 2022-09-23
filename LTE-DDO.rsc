@@ -85,3 +85,5 @@ set ddns-enabled=yes
 /system routerboard
 upgrade
 y
+
+
