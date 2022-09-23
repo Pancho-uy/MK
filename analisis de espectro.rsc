@@ -1,0 +1,1 @@
+interface wireless spectral-history wlan1 
