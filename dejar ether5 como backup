@@ -1,0 +1,11 @@
+---------------------------------------------------------------
+PONER SAFE MODE!!!!
+---------------------------------------------------------------
+Crear interface list WAN si no la hubiera
+Sacar ether5 del bridge local
+Agregar ether5 a interface list WAN
+Crear bridge_WAN y agregar ether1 y ether5
+Crear mascarade si no lo hubiera y asignar out interface WAN
+En IP addresses asignar la fija a bridge_WAN
+---------------------------------------------------------------
+SALIR DE SAFE MODE
