@@ -1,6 +1,19 @@
 ---------------------------------------------------------------
 PONER SAFE MODE!!!!
----------------------------------------------------------------
+-------------------------------------------------------------------------
+Crear bridge WAN
+sacar uplink y ether a usar como 2wan de bridge LAN 
+Cambiar firewall a WAN (interface list)
+IR a bridge y unir WAN con Bridge_WAN
+en bridge ports agregar las ether WAN al bridge_WAN
+en addresses colocar como WAN al bridge wan (ether1 cambia a bridge_wan)
+--------------------------------------------------------------------------
+
+
+
+
+
+
 Crear interface list WAN si no la hubiera
 Sacar ether5 del bridge local
 Agregar ether5 a interface list WAN
