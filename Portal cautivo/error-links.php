@@ -1,0 +1,7 @@
+<br>
+<a href="#" style="text-decoration:none; font-family: Tahoma;" onclick="window.open('../reg/check-user.php?mac=<?php echo $_GET['mac'];?>&phone=Your phone number.','','width=500,height=420,scrollbars=yes');return false;" title="User add"><b style='color:white'>* User add.</b><br></a>
+<a href="#" style="text-decoration:none; font-family: Tahoma;" onclick="window.open('./redirect.php?link=<?php echo $link; ?>&phone=Your phone number.','','width=500,height=420,scrollbars=yes');return false;" title="User add"><b style='color:white'>* Create automatic connection.</b><br></a>
+<!--
+<a href="#" style="text-decoration:none; font-family: Tahoma;" onclick="window.open('../check/index.php?phone=37000000000&user=<?php echo $_GET['user']; ?>','','width=500,height=420,scrollbars=yes');return false;" title="Check user"><b style='color:white'>* Check user.</b><br></a>
+-->
+<a href="#" style="text-decoration:none; font-family: Tahoma;" onclick="window.open('../payment/svitch.php?phone=37000000000&mac=<?php echo $_GET['mac'];?>&user=<?php echo $_GET['user'];?>','','width=500,height=420,scrollbars=yes');return false;" title="Activate user or Buy credit"> <b style='color:white'>* Activate user or Buy credit.</b> </a><br>

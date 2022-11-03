@@ -1,9 +1,3 @@
-# sep/12/2022 19:17:29 by RouterOS 6.49.6
-# software id = RU28-RF4N
-#
-# model = 951Ui-2HnD
-# serial number = B8570B40C44A
-
 /interface bridge
 add admin-mac=C4:AD:34:42:66:2F auto-mac=no comment=b8570b40c44a.sn.mynetname.net name=bridge
 /interface ethernet
