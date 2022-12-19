@@ -28,11 +28,12 @@ set discover-interface-list=WAN
 add comment=defconf interface=bridge list=LAN
 add comment=defconf interface=ether1 list=WAN
 add list=WAN
+#############################################################################
 /ip address
 add address=200.108.230.249/28 disabled=yes interface=ether1 network=\
     200.108.230.240
 add address=192.168.1.1/24 disabled=yes interface=bridge network=192.168.1.0
-################## ACA VA LA IP DE GESTION #################################
+####################### ACA VA LA IP DE GESTION ############################
 add address=10.83.20.12/24 interface=vlan20_1 network=10.83.20.0
 ############################################################################
 /ip dns
@@ -83,6 +84,7 @@ set winbox address=\
 set api-ssl disabled=yes
 ###################################################################################
 # Configuracion de la hora del Router y del Sistema, zona horaria
+###################################################################################
 /system clock
 set time-zone-name=America/Montevideo
 /system identity
